@@ -10,19 +10,20 @@
 <body>
     <h1> Alura Fone </h1>
  <section class="teclado">
-    <input type="button" value="1">
-    <input type="button" value="2">
-    <input type="button" value="3">
-    <input type="button" value="4">
-    <input type="button" value="5">
-    <input type="button" value="6">
-    <input type="button" value="7">
-    <input type="button" value="8">
-    <input type="button" value="9">
-    <input type="button" value="*">
-    <input type="button" value="0">
-    <input type="button" value="#">
+    <input type="button" value="1" onclick="digitar('1')">
+    <input type="button" value="2" onclick="digitar('2')">
+    <input type="button" value="3" onclick="digitar('3')">
+    <input type="button" value="4" onclick="digitar('4')">
+    <input type="button" value="5" onclick="digitar('4')">
+    <input type="button" value="6" onclick="digitar('6')">
+    <input type="button" value="7" onclick="digitar('7')">
+    <input type="button" value="8" onclick="digitar('8')">
+    <input type="button" value="9" onclick="digitar('9')">
+    <input type="button" value="*" onclick="digitar('*')">
+    <input type="button" value="0" onclick="digitar('0')">
+    <input type="button" value="#" onclick="digitar('#')">
   </section>
-  <input type="tel" placeholder="Digite seu telefone">
+  <input type="tel" placeholder="Digite seu telefone" id="place">
+  <input type="button" value="Apagar" id="Backspace" onclick="apagar()">
 </body>
 </html>

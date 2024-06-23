@@ -41,6 +41,17 @@
     height: 80px;
     width: 80px;
   }
+
+  input#Backspace{
+    background-color: #cccccc;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 22px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    width: 280px;
+  }
   
   input[type=tel] {
     background-color: #cccccc;
